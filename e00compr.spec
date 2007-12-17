@@ -6,7 +6,6 @@ License:	BSD-like
 Source:		http://avce00.maptools.org/dl/%{name}-%{version}.tar.bz2
 URL:		http://avce00.maptools.org/e00compr
 Group:		Sciences/Geosciences
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 E00Compr is an Open Source (i.e. Free!) ANSI-C library to compress and
