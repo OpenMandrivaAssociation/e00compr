@@ -1,6 +1,6 @@
 Name:		e00compr
-Version:	1.0.0
-Release:	%mkrel 5
+Version:	1.0.1
+Release:	%mkrel 1
 Summary:	Tools to Read/Write Compressed E00 Files
 License:	BSD-like
 Source:		http://avce00.maptools.org/dl/%{name}-%{version}.tar.bz2
