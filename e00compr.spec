@@ -59,3 +59,36 @@ rm -Rf %{buildroot}
 %{_includedir}/*.h
 %{_libdir}/e00compr.a
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.1-2mdv2011.0
++ Revision: 617940
+- the mass rebuild of 2010.0 packages
+
+* Thu Aug 20 2009 Buchan Milne <bgmilne@mandriva.org> 1.0.1-1mdv2010.0
++ Revision: 418563
+- update to new version 1.0.1
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.0.0-5mdv2009.0
++ Revision: 244600
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.0.0-3mdv2008.1
++ Revision: 140723
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import e00compr
+
+
+* Wed Sep 06 2006 Buchan Milne <bgmilne@mandriva.org> 1.0.0-3mdv2007.0
+- fix perms of headers
+- clean buildroot
+
+* Thu Feb 16 2006 Nicolas Lécureuil <neoclust@mandriva.org> 1.0.0-2mdk
+- Fix Group ( Tks PierreLag)
+
+* Sun Jan 01 2006 Buchan Milne <bgmilne@mandriva.org> 1.0.0-1
+- initial Mandriva package
