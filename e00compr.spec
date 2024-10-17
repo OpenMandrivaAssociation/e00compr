@@ -4,7 +4,7 @@ Release:	3
 Summary:	Tools to Read/Write Compressed E00 Files
 License:	BSD-like
 Source:		http://avce00.maptools.org/dl/%{name}-%{version}.tar.bz2
-URL:		http://avce00.maptools.org/e00compr
+URL:		https://avce00.maptools.org/e00compr
 Group:		Sciences/Geosciences
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
