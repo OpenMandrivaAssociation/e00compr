@@ -8,6 +8,7 @@ URL:		https://avce00.maptools.org/e00compr
 Group:		Sciences/Geosciences
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
+BuildRequires:	make
 %description
 E00Compr is an Open Source (i.e. Free!) ANSI-C library to compress and
 uncompress Arc/Info Export (E00) files.
